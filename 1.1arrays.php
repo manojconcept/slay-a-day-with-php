@@ -41,8 +41,8 @@
     $array2 = [1, 2, 3];
     //don't use this 
     // $arrays[] = "manoj";
-    // $arrays[] = "devi";
-    // $arrays[] = "devi";
+    // $arrays[] = "backend dev";
+    // $arrays[] = "backend dev";
     echo '<br>';
     //don't use this method;
     //$array = [1, 2, 3];
