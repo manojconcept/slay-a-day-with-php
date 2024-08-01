@@ -22,35 +22,36 @@
     $color = 'black';
     echo "the " . $color . " dog";
     echo "<br>";
-    echo "the " . $Color . " dog"; //undefined but it shows no error
+    echo "the " . $color . " dog"; //undefined but it shows no error
     echo "<br>";
-    echo "the " . $ColOr . " dog"; //undefined but it shous no error
+    echo "the " . $color . " dog"; //undefined but it shous no error
     echo '<br>';
     echo "Hello by PHP echo";
     echo "<br>";
+    //multi line
     echo "Hello by
     php echo
     this is multi line
     text printed by php echo statement
     ";
+    //escape character
     echo '<br>';
     echo "hello \"sequence\" characters"; // escape character
     echo '<br>';
     $message = 200;
     echo "Message $message ok";
     echo '<br>';
-    echo 'differenc between echo and print';
     echo '<br>';
     $fname = "Manoj";
     $lname = "M";
-    echo "My name is " . $fame, $lname; // we can pass like this also with comma
+    echo "My name is " . $fname, $lname; // we can pass like this also with comma
     echo '<br>';
     //print "My name is ".$fame,$lname; // we can't pass like this also with comma
     echo '<br>';
     $lang = "php";
     //$ret = echo $lang." is a web development language";
     echo "</br>";
-    echo "Value return by pirnt statement ".$ret;
+    echo "Value return by pirnt statement ".$lang;
 
     ?>
 
